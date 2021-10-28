@@ -3,6 +3,8 @@
 
 Extended Homer dashboard for personal use.
 
+Demo: [www.f1nalboss.de](https://www.f1nalboss.de)
+
 What i adjusted:
 
 - added robots.txt within index.html
