@@ -1,0 +1,56 @@
+---
+# Additionnal page configuration
+
+# Additionnal configurations are loaded using its file name, minus the extension, as an anchor (https://<mydashboad>#<config>).
+# `config.yml` is still used as a base configuration, and all values here will overwrite it, so you don't have to re-defined everything
+
+
+subtitle: "Private services"
+
+links:
+  - name: "Public"
+    icon: "fas fa-file-alt"
+    url: "#"
+  - name: "Zugang beantragen"
+    icon: "fa fa-envelope"
+    url: "https://www.knulst.de/#contact"
+    target: "_blank"
+
+
+services:
+  - name: "Apps"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Gitlab"
+        logo: "icons/gitlab.png"
+        subtitle: "personal gitlab for all my private and customer related projects done by paulscode"
+        tag: "free"
+        url: "https://git.f1nalboss.de"
+        target: "_blank"
+  - name: "Services"
+    icon: "fas fa-cog"
+    items:
+      - name: "Mailserver"
+        logo: "icons/mailserver.png"
+        subtitle: "self hosted instance of hardware/mailserver"
+        tag: "free"
+        url: "https://github.com/hardware/mailserver"
+        target: "_blank"
+      - name: "Docker-Registry"
+        logo: "icons/docker-registry.png"
+        subtitle: "a private registry which is used for all my individual configured images"
+        tag: "free"
+        url: "https://docs.docker.com/registry/"
+        target: "_blank"
+      - name: "Traefik"
+        logo: "icons/traefik.png"
+        subtitle: "load balancer for cluster network which also generates ssl certs"
+        tag: "free"
+        url: "https://traefik.io"
+        target: "_blank"
+      - name: "Portainer"
+        logo: "icons/portainer.png"
+        subtitle: "powerful GUI-based container-as-a-Service solution that helps organizations manage and deploy cloud-native applications quickly and securely."
+        tag: "free"
+        url: "https://www.portainer.io"
+        target: "_blank"

@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.columns.is-multiline {
+    margin-bottom: 10px;
+}
+
+.columns:last-child {
+    margin-bottom: 10px;
+}
+
